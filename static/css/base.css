@@ -8,6 +8,7 @@ body {
     font-size: 16px;
     line-height: 180%;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 .container {
@@ -30,6 +31,8 @@ img {
 header#header {
     padding: 20px 0px;
     font-size: 20px;
+    background: #ffc60b;
+    margin-bottom: 30px;
 }
 
 header .container {
