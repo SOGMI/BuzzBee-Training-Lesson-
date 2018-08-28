@@ -1,0 +1,4 @@
+baseURL = "https://www.buzzbee.com"
+languageCode = "en-us"
+buildDrafts = false
+title = "BuzzBee | Definetely Not A BuzzFeed Rip-Off"
