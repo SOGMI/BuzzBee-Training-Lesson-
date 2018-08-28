@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 180%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* header CSS */
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header#header {
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+header .container {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+
+header#header a {
+    color: #333333;
+    text-decoration: none;
+}
+
+#header nav a {
+    padding: 10px 20px;
+}
+
+#header nav {
+    margin: 0px -20px;
+}

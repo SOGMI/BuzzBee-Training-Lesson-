@@ -1,3 +1,8 @@
 {{ define "main" }}
-<div>This is part of the single template</div>
+<section>
+    <div class="container">
+        <h1>{{ .Title }}</h1>
+        <img src="{{ .Params.FeaturedImage }}" alt="">
+    </div>
+</section>
 {{ end }}
